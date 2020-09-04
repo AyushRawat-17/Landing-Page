@@ -9,8 +9,7 @@ function App() {
       <Upper
         head1="Join our community"
         head2="30-day, hassle-free money back guarantee"
-        shead1="Gain access to our full library of tutorials along with expert code reviews."
-        shead2="Perfect for any developers who are serious about honing their skills."
+        shead1="Gain access to our full library of tutorials along with expert code reviews.Perfect for any developers who are serious about honing their skills."
       />
       <Lower/>
     </div>
