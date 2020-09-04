@@ -1,0 +1,123 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(247, 233, 235);
+    font-family: 'Karla', sans-serif;
+}
+
+.main-container{
+    margin:50px auto;
+    height:500px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.upper-container{
+    height:250px;
+    background-color: #ffffff;
+    padding: 48px 50px 10px 78px;
+}
+
+.upper-container h2{
+    color:#20B2AA;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.upper-container h3{
+    color:yellowgreen;
+    font-weight: 700;
+}
+
+.upper-container h5{
+    color:rgb(177, 169, 169);
+}
+
+
+.lower-container{
+    height:250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lower-container h3{
+    display: inline;
+}
+
+.lower-container h5{
+    padding: 8px 0px;
+}
+
+.lower-button{
+    padding: 12px 115px;
+    background-color: yellowgreen;
+}
+
+.left-container{
+    background-color: #20B2AA; 
+    display: inline-block;
+    height: 250px;
+    width: 50%;
+    color: white;
+}
+
+.left-container-content{
+    padding: 25px 75px 40px 75px;
+}
+
+/* .signup-button{
+    padding: 50px;
+} */
+
+.right-container{
+    background-color: #48D1CC;
+    display: inline-block;
+    height: 250px;
+    width: 50%;
+}
+
+.right-container h3{
+    padding: 0px 80px;
+}
+
+.right-container p{
+    padding: 0px 82px;
+}
+
+.right-container-content{
+    padding: 25px 56px 10px 21px;
+    color: white;
+}
+
+.right-container-content div{
+    margin-top: 12px;
+}
+
+.right-container p{
+    color:rgb(250, 239, 239);
+}
+
+@media screen and (max-width: 375px) {
+
+    .lower-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-container{
+        display: inline-block;
+        height: 250px;
+        width: 100%;
+    }
+
+    .right-container{
+        display: inline-block;
+        height: 250px;
+        width: 100%;
+    }
+    
+    
+   
+  }
